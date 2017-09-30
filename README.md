@@ -24,6 +24,14 @@ Setup the **Enlighter plugin** to use the *Legacy shortcode system*. To do it ju
 4. If you want to, you may change the caption of the popup window. Just add the parameter **caption** to the shortcode like this.
 **\[jdoodle url="*your code snippet SHARED URL*"  caption="*your caption*"\]**.
 
+## Supported languages
+* Java
+* C++
+* Javascript in NodeJS
+* C#
+* PHP
+
+
 
 
 
