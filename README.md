@@ -18,6 +18,14 @@ Setup the **Enlighter plugin** to use the *Legacy shortcode system*. To do it ju
 6. Finally save the changes.
 
 ## Usage
+1. First add your code snippet to the [https://www.jdoodle.com](https://www.jdoodle.com) and mark it as shared.
+2. Then copy the **Shared URL**, **NOT THE Embed URL**.
+3. Write the shortcode in the form \[jdoodle url="*your code snippet SHARED URL*"\] to your post or page.
+
+
+
+
+
 
 
 
