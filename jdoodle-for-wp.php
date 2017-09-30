@@ -5,13 +5,14 @@
  */
 /*
 Plugin Name: JDoodle for WordPress
-Depends: enlighter
-Plugin URI: http://wordpress.org/plugins/hello-dolly/
-Description: This plugin allows to embed executable C++ code online to WordPress. Executable C++ is powered by http://www.jdoodle.com 
+Depends: Enlighter
+Plugin URI: https://github.com/evonox/jdoodle-for-wp/
+Description: This plugin allows users to execute their code snippets online in various languages directly in their Wordpress site. 
 Author: Viktor Prehnal
 Version: 0.1
 Text Domain: jdoodle-for-wp
 Domain Path: /languages
+License: MIT
 */
 
 // This constant defines the script URL of the embedded engine of JDoodle
