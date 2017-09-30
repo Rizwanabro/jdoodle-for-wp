@@ -182,16 +182,3 @@ function myplugin_init() {
 	load_plugin_textdomain( 'jdoodle-for-wp', false, $plugin_dir . '/languages' );
 }
 add_action('plugins_loaded', 'myplugin_init');
-
-
-/*
-TODO:
-1. Nastudovat WP Caching a browser cache cleanup
-
-My next steps are:
-1. Put the plugin source on GitHub
-2. Write the settings
-3. Study the policy of WP to allow automatic installation of the plugin from the web.
-
-
-*/
