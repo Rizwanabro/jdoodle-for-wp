@@ -10,7 +10,7 @@ This plugin allows users to execute their code snippets online in various langua
 3. Upload the **JDoodle for WordPress** ZIP package at the plugin installation page of your WordPress site.
 4. Activate the uploaded plugin.
 
-**Remark:** *If you are not familiar to Wordpress plugin installation, the have a look at [this video tutorial](https://www.youtube.com/watch?v=AXM1QgMODW0).*
+**Remark:** *If you are not familiar to WordPress plugin installation, then have a look at [this video tutorial](https://www.youtube.com/watch?v=AXM1QgMODW0).*
 
 ## Setting up the plugins
 Setup the **Enlighter plugin** to use the *Legacy shortcode system*. To do it just follow these steps.
