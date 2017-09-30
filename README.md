@@ -2,11 +2,15 @@
 This plugin allows users to execute their code snippets online in various languages directly in their Wordpress site. It is done by integrating three technologies which are WordPress, [Enlighter plugin](https://wordpress.org/plugins/enlighter/) and finally https://www.jdoodle.com website providing the facilities to run the code online.
 
 ## Plugin dependencies
-**JDoodle for Wordpress** depends upon the [Enlighter Wordpress plugin](https://wordpress.org/plugins/enlighter/).
+**JDoodle for WordPress** depends upon the [Enlighter WordPress plugin](https://wordpress.org/plugins/enlighter/).
 
 ## Installation
-1. Install the **Enlighter plugin** and then **JDoodle for Wordpress plugin**. You may choose either automatic or manual installation. If you are not familiar to Wordpress plugin installation, the have a look at [this video tutorial](https://www.youtube.com/watch?v=AXM1QgMODW0).
-2. Activate both plugins.
+1. Install the [**Enlighter plugin**](https://wordpress.org/plugins/enlighter/) and activate it.
+2. Download the ZIP file package of the [**JDoodle for WordPress plugin**](https://github.com/evonox/jdoodle-for-wp/releases/tag/0.1).
+3. Upload the **JDoodle for WordPress** ZIP package at the plugin installation page of your WordPress site.
+4. Activate the uploaded plugin.
+
+**Remark:** *If you are not familiar to WordPress plugin installation, then have a look at [this video tutorial](https://www.youtube.com/watch?v=AXM1QgMODW0).*
 
 ## Setting up the plugins
 Setup the **Enlighter plugin** to use the *Legacy shortcode system*. To do it just follow these steps.
