@@ -11,6 +11,15 @@ This plugin allows users to execute their code snippets online in various langua
 ### Setting up the plugins
 Setup the **Enlighter plugin** to use the *Legacy shortcode system*. To do it just follow these steps.
 1. Go to your WordPress site administration.
-2. In the menu on the left click a menu item named *Enlighter*.
+2. In the menu on the left click a menu item named *Enlighter*. This will open the settings page of the **Enlighter plugin**.
+3. Click on the **Editing** tab.
+4. Scroll down to find out the **Shortcodes** panel.
+5. In the combobox named **Processor** then choose then option *Legacy (WordPress based)*.
+6. Finally save the changes.
+
+## Usage
+
+
+
 
 
