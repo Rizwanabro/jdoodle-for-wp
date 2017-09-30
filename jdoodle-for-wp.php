@@ -93,7 +93,7 @@ function parseSourceCodeFromJson($json, &$source, &$lang) {
 
 // Creates the error message HTML
 function create_error_message($message) {
-	return "<span class='error_message'>" . $message . "</span>";
+	return "<div class='error_message'>" . $message . "</div>";
 }
 
 // The core shortcode handler for JDoodle
