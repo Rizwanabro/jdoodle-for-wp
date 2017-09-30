@@ -1,0 +1,106 @@
+@media screen {
+    .error_message {
+        color: red; 
+        font-weight: bolder; 
+        font-size: 20px;
+    }
+    
+   .jdoodle_embed_container {
+        position: fixed; 
+        top: 30px; 
+        text-align: center; 
+        margin: 0;
+        visibility: hidden;
+        width: 100%;
+        height: 100%;
+        z-index: 100; 
+        display: block;
+    }
+
+    .jdoodle_embed_inner_container {
+        display: inline-block; 
+        width: 800px; 
+        background: black;
+        border-radius: 5px; 
+        padding: 4px;
+        -webkit-box-shadow: 10px 10px 31px 1px rgba(120,109,120,1);
+        -moz-box-shadow: 10px 10px 31px 1px rgba(120,109,120,1);
+        box-shadow: 10px 10px 31px 1px rgba(120,109,120,1);
+    }
+
+    .doodle_embed_scrollable {
+        max-height: 600px;
+        overflow-y: scroll;
+    }
+    
+    .jdoodle_embed_header {
+        text-align: right; 
+        padding: 2px; 
+        color: white; 
+        font-size: 14px; 
+        font-family: Arial; 
+        padding: 3px;
+        display: flex;
+    }
+
+    .jdoodle_embed_header .title {
+        flex: auto;
+        text-align: left;
+        padding-left: 1em;
+    }
+
+    .jdoodle_embed_header_separator {
+        background: white; 
+        height: 10px;
+    }
+
+    .jdoodle_embed_header .links {
+        display: inline-block;
+        flex: none;
+    }
+
+    .jdoodle_embed_header  a {
+        color: white; 
+        margin-right: 1em;
+    }
+
+    .jdoodle_embed_header  a:hover, .jdoodle_embed_header> a:visited, .jdoodle_embed_header  a:active {
+        color: white; 
+        margin-right: 1em;
+        text-decoration: underline !important;
+    }
+
+    .jdoodle_embed_centering_container {
+        background: white !important;
+        overflow-x: hidden !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .jdoodle_embed_centering_content {
+        position: relative !important;
+        left: -10px !important;
+        top: 0px !important;
+    }
+
+    .jdoodle_try_online {
+        position: relative; 
+        top:-1em;
+    }
+
+    .jdoodle_try_online a:hover {
+        text-decoration: underline !important;
+    }
+}
+
+@media print {
+    .jdoodle_embed_container {
+        display: none;
+        visibility: hidden;
+    }
+
+    .jdoodle_try_online {
+        display: none;
+        visibility: hidden;
+    }
+}
