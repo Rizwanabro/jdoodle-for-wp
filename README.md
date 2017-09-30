@@ -11,7 +11,6 @@ This plugin allows users to execute their code snippets online in various langua
 4. Activate the uploaded plugin.
 
 **Remark:** *If you are not familiar to Wordpress plugin installation, the have a look at [this video tutorial](https://www.youtube.com/watch?v=AXM1QgMODW0).*
-2. Activate both plugins.
 
 ## Setting up the plugins
 Setup the **Enlighter plugin** to use the *Legacy shortcode system*. To do it just follow these steps.
