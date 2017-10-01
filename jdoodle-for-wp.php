@@ -177,6 +177,21 @@ function load_jdoodle_plugin_scripts() {
 }
 add_action('wp_enqueue_scripts', 'load_jdoodle_plugin_scripts');
 
+// Include scripts required by TinyMCE plugin
+// add new buttons
+add_filter( 'mce_buttons', 'jdoodle_register_buttons' );
+function jdoodle_register_buttons( $buttons ) {
+   array_push( $buttons, 'separator', 'JDoodle' );
+   return $buttons;
+}
+ 
+// Load the TinyMCE plugin : editor_plugin.js (wp2.5)
+add_filter( 'mce_external_plugins', 'jdoodle_register_tinymce_javascript' );
+function jdoodle_register_tinymce_javascript( $plugin_array ) {
+   $plugin_array['jdoodle'] = plugins_url( 'tinymce-plugin.js',__FILE__ );
+   return $plugin_array;
+}
+
 // Load the text domain
 function myplugin_init() {
 	$plugin_dir = basename(dirname(__FILE__));
