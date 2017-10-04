@@ -31,9 +31,9 @@ Setup the **Enlighter plugin** to use the *Legacy shortcode system*. To do it ju
 
 If your preference is writing shortcodes directly, write JDoodle shortcodes as follows:
 ```
-\[jdoodle url="*your code snippet SHARED URL*"  caption="*your caption*"\]
+[jdoodle url="your code snippet SHARED URL"  caption="your caption"]
 ```
-*Remark: The parameter caption is optional.*
+**Remark:** *The parameter caption is optional.*
 
 ## Supported languages
 * Java
