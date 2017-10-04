@@ -29,7 +29,7 @@ Setup the **Enlighter plugin** to use the *Legacy shortcode system*. To do it ju
 5. Fill in optionally a caption of the popup window.
 6. Click OK button and the shortcode will be generated for you.
 
-If your preference is writing shortcodes directly, write JDoodle shortcodes as follows:
+If your preference is writing shortcodes directly, write them as follows:
 ```
 [jdoodle url="your code snippet SHARED URL"  caption="your caption"]
 ```
