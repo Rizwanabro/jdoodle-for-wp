@@ -6,14 +6,14 @@ tinymce.PluginManager.add('jdoodle', function(editor, url) {
     onclick: function() {
       // Open window
       editor.windowManager.open({
-        title: 'Embed Code Snippet from JDoodle site',
+        title: editor.getLang('jdoodle.editor_caption'),
         body: [
-          {type: 'textbox', name: 'url', label: 'Shared URL', minWidth: 400},
-          {type: 'textbox', name: 'caption', label: 'Caption'}
+          {type: 'textbox', name: 'url', label: editor.getLang('jdoodle.share_url'), minWidth: 400},
+          {type: 'textbox', name: 'caption', label: editor.getLang('jdoodle.caption')}
         ],
         onsubmit: function(e) {
           if(e.data.url.trim() == "") {
-              editor.windowManager.alert("Fill in please the Shared URL of your source code.");
+              editor.windowManager.alert(editor.getLang('jdoodle.fill_in_url'));
               e.preventDefault();
               return;
           }

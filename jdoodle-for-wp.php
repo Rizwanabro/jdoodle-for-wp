@@ -179,7 +179,7 @@ add_action('wp_enqueue_scripts', 'load_jdoodle_plugin_scripts');
 
 // Include scripts required by TinyMCE plugin
 // add new buttons
-add_filter( 'mce_buttons', 'jdoodle_register_buttons' );
+add_filter( 'mce_buttons', 'jdoodle_register_buttons', 999);
 function jdoodle_register_buttons( $buttons ) {
    array_push( $buttons, 'separator', 'JDoodle' );
    return $buttons;
@@ -198,3 +198,11 @@ function myplugin_init() {
 	load_plugin_textdomain( 'jdoodle-for-wp', false, $plugin_dir . '/languages' );
 }
 add_action('plugins_loaded', 'myplugin_init');
+
+// Load TinyMCE plugin texts
+function jdoodle_add_tinymce_lang( $arr )
+{
+    $arr["jdoodle"] = plugin_dir_path ( __FILE__ ) . 'tinymce-lang.php';
+    return $arr;
+}
+add_filter( 'mce_external_languages', 'jdoodle_add_tinymce_lang');

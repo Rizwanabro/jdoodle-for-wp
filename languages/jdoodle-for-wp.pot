@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: JDoodle For WP\n"
-"POT-Creation-Date: 2017-09-30 02:33+0200\n"
+"POT-Creation-Date: 2017-10-04 23:34+0200\n"
 "PO-Revision-Date: 2017-09-30 02:32+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -16,51 +16,64 @@ msgstr ""
 "X-Poedit-WPHeader: jdoodle-for-wp.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: jdoodle-for-wp.php:105
+#: jdoodle-for-wp.php:106
 msgid "Missing 'url' parameter in shortcode."
 msgstr ""
 
-#: jdoodle-for-wp.php:107
+#. Plugin Name of the plugin/theme
+#: jdoodle-for-wp.php:108
 msgid "JDoodle for WordPress"
 msgstr ""
 
-#: jdoodle-for-wp.php:116
+#: jdoodle-for-wp.php:117
 msgid "Error loading source code."
 msgstr ""
 
-#: jdoodle-for-wp.php:119
+#: jdoodle-for-wp.php:120
 msgid "Unsupported programming language."
 msgstr ""
 
-#: jdoodle-for-wp.php:133
+#: jdoodle-for-wp.php:134
 msgid "Try Online"
 msgstr ""
 
-#: jdoodle-for-wp.php:136
+#: jdoodle-for-wp.php:137
 msgid "Edit Code"
 msgstr ""
 
-#: jdoodle-for-wp.php:137
+#: jdoodle-for-wp.php:138
 msgid "Close"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
-msgid "JDoodle For WP"
+#: tinymce-lang.php:11
+msgid "Embed your code snippet from JDoodle server"
+msgstr ""
+
+#: tinymce-lang.php:12
+msgid "Share URL:"
+msgstr ""
+
+#: tinymce-lang.php:13
+msgid "Caption:"
+msgstr ""
+
+#: tinymce-lang.php:14
+msgid "Please, fill in the 'Share URL' of your source code."
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "http://wordpress.org/plugins/hello-dolly/"
+msgid "https://github.com/evonox/jdoodle-for-wp/"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"This plugin allows to embed executable C++ code online to WordPress. "
-"Executable C++ is powered by http://www.jdoodle.com"
+"This plugin allows users to execute their code snippets online in various "
+"languages directly in their Wordpress site."
 msgstr ""
 
 #. Author of the plugin/theme
