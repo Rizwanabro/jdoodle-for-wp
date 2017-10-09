@@ -9,7 +9,7 @@ This plugin helps users to execute their code snippets online in various languag
 
 ## Installation
 1. Install the [**Enlighter plugin**](https://wordpress.org/plugins/enlighter/) and activate it.
-2. Download the ZIP package of the [**JDoodle for WordPress plugin**](https://github.com/evonox/jdoodle-for-wp/releases/tag/1.0).
+2. Download the ZIP package of the [**JDoodle for WordPress plugin**](https://github.com/evonox/jdoodle-for-wp/releases/tag/v1.0).
 3. Upload the **JDoodle for WordPress** ZIP package at the plugin installation page of your WordPress site.
 4. Activate the uploaded plugin.
 
