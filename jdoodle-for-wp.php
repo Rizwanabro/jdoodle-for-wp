@@ -9,11 +9,14 @@ Depends: Enlighter
 Plugin URI: https://github.com/evonox/jdoodle-for-wp/
 Description: This plugin allows users to execute their code snippets online in various languages directly in their Wordpress site. 
 Author: Viktor Prehnal
-Version: 0.1
+Version: 1.0
 Text Domain: jdoodle-for-wp
 Domain Path: /languages
 License: MIT
 */
+
+include("class.VersionChecker.php");
+include("class.UpdateEngine.php");
 
 // This constant defines the script URL of the embedded engine of JDoodle
 define("JDOODLE_SCRIPT_URL", "https://www.jdoodle.com/assets/jdoodle-pym.min.js");
@@ -206,3 +209,19 @@ function jdoodle_add_tinymce_lang( $arr )
     return $arr;
 }
 add_filter( 'mce_external_languages', 'jdoodle_add_tinymce_lang');
+
+if(is_admin()) {
+	$versionChecker = new VersionChecker();
+	function jdoodle_sample_admin_notice__success() {
+		global $versionChecker;
+		if($versionChecker->isNewerPluginVersion())		
+			$versionChecker->displayNotificationMessage();
+	}
+	add_action( 'admin_notices', 'jdoodle_sample_admin_notice__success' );
+
+	function jdoodle_check_plugin_update_request() {
+		$updateEngine = new UpdateEngine();
+		$updateEngine->updatePlugin();
+	}
+	add_action( 'admin_post_update_jdoodle', 'jdoodle_check_plugin_update_request' );
+}
